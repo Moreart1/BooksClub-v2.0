@@ -14,7 +14,7 @@ namespace BooksClub.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ModelBooks>();           
+            modelBuilder.Entity<ModelBooks>();
         }
     }
 }
